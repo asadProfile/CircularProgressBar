@@ -1,0 +1,52 @@
+/***
+ * Author: MD Asad
+ * Author URL: http://asadpro.com
+ * You can use this anywhere,
+ * Thanks for using this
+ */
+
+.circle-chart-progress .circular-progress {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  margin: 10px auto;
+  border-radius: 50%;
+  background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-chart-progress .circular-progress::before {
+  content: "";
+  position: absolute;
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.circle-chart-progress .progress-value {
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  color: #7d2ae8;
+}
+.circle-chart-progress .text {
+  font-size: 30px;
+  font-weight: 500;
+  color: #606060;
+}
+.circle-chart-progress .item {
+  margin-bottom: 30px;
+}
+
+.circle-chart-progress .item content {
+  text-align: center;
+  margin-top: 20px;
+}
+.circle-chart-progress .item h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #191919;
+  font-weight: 400;
+}

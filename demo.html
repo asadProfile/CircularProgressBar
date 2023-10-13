@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circular Progress Bar</title>
+    <link rel="stylesheet" href="./circularProgressBar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+    />
+    <style>
+      .test {
+        height: 2000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="test"></div>
+    <section
+      id="welcome"
+      class="animated-section fade-in-up"
+      data-speed="1"
+      data-delay="0.25"
+    >
+      <div class="container py-5">
+        <div class="section-header text-center pb-5">
+          <h2>Welcome to Our Website</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            molestiae quisquam nesciunt odio asperiores ea provident cumque
+            delectus velit quo.
+          </p>
+        </div>
+        <div class="circle-chart-progress">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="item">
+                <div
+                  class="circular-progress"
+                  data-fill="#00AFE5"
+                  data-start-value="0"
+                  data-end-value="95"
+                  data-speed="100"
+                >
+                  <span class="progress-value">0%</span>
+                </div>
+                <div class="content">
+                  <h4>Design</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="item">
+                <div
+                  class="circular-progress"
+                  data-fill="#FFCA3F"
+                  data-start-value="0"
+                  data-end-value="45"
+                  data-speed="100"
+                >
+                  <span class="progress-value">0%</span>
+                </div>
+                <div class="content">
+                  <h4>Communication</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="item">
+                <div
+                  class="circular-progress"
+                  data-fill="#00ff00"
+                  data-start-value="0"
+                  data-end-value="70"
+                  data-speed="100"
+                >
+                  <span class="progress-value">0%</span>
+                </div>
+                <div class="content">
+                  <h4>Prospecting</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="item">
+                <div
+                  class="circular-progress"
+                  data-fill="#E02B20"
+                  data-start-value="0"
+                  data-end-value="88"
+                  data-speed="100"
+                >
+                  <span class="progress-value">0%</span>
+                </div>
+                <div class="content">
+                  <h4>Sales</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./circularProgressBar.js"></script>
+    <script>
+      observeElement("welcome");
+      // passing the section id welcome so that when user scroll to the section,
+      // It will start showing progress bar. But this is optional. Otherwise,
+      // it will start immedeatly when page loads.
+    </script>
+  </body>
+</html>
