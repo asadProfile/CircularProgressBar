@@ -1,5 +1,3 @@
-# CircularProgressBar
-
 # Circular Progress Bar Plugin Documentation
 
 ## Table of Contents
@@ -57,10 +55,10 @@ You can add as many circular progress bars as needed within your content.
 
 Customize the circular progress bars by setting the following attributes:
 
-**data-fill:** The fill color for the circular progress bar. use hex color.
-**data-start-value:** The initial value of the progress (usually 0%).
-**data-end-value:** The target value that the progress should reach (e.g., 95%).
-**data-speed:** The animation speed in milliseconds (e.g., 100).
+- **data-fill:** The fill color for the circular progress bar. use hex color.
+- **data-start-value:** The initial value of the progress (usually 0%).
+- **data-end-value:** The target value that the progress should reach (e.g., 95%).
+- **data-speed:** The animation speed in milliseconds (e.g., 100).
 
 Initialize the **Circular Progress Bar** by calling the **observeElement** function in your JavaScript
 
@@ -70,7 +68,6 @@ code. Pass the id of the HTML element you want to observe for visibility. For ex
 <script>
   observeElement("welcome");
 </script>
-
 ```
 
 **Note**
@@ -80,7 +77,7 @@ Thank you for using the Circular Progress Bar plugin. If you have any questions 
 
 Enjoy adding interactive circular progress bars to your web pages!
 
-#Find Me:
+## Find Me:
 
 **[http://asadpro.com](http://asadpro.com)**
 
